@@ -33,13 +33,13 @@ MX用とChoc用のどちらの無限の可能性でも作成できますが、�
 次に以下の部分をニッパーで切ってください。
 
 <figure>
-<img src="./cut-container.jpg" height=256px />
 <figcaption>ConTaiNeRまたはSuXeNの場合</figcaption>
+<img src="./cut-container.jpg" height=256px />
 </figure>
 
 <figure>
-<img src="./cut-choc.jpg" height=256px />
 <figcaption>Chocっとした可能性の場合</figcaption>
+<img src="./cut-choc.jpg" height=256px />
 </figure>
 
 ※ 別の切り方もできますがダイオードの方向が変わってくるためこの後説明しやすい切り方にしています
