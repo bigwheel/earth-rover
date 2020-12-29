@@ -32,19 +32,23 @@ MX用とChoc用のどちらの無限の可能性でも作成できますが、�
 まず無限の可能性の方向を自分と正対するように目の前に置きます(文字が自然に読める方向 & ダイオードのアイコンが手前側です)。
 次に以下の部分をニッパーで切ってください。
 
-ConTaiNeRまたはSuXeNの場合
-![](./cut-container.jpg)
+<figure>
+<img src="./cut-container.jpg" height=256px />
+<figcaption>ConTaiNeRまたはSuXeNの場合</figcaption>
+</figure>
 
-Chocっとした可能性の場合
-![](./cut-choc.jpg)
+<figure>
+<img src="./cut-choc.jpg" height=256px />
+<figcaption>Chocっとした可能性の場合</figcaption>
+</figure>
 
 ※ 別の切り方もできますがダイオードの方向が変わってくるためこの後説明しやすい切り方にしています
 
 最後にニッパーで切ったときにできた尖った部分を棒ヤスリなどでなめらかにしましょう(僕は[これ](https://www.amazon.co.jp/dp/B00FPJH02C)を使っています)。sasori-kakko-kariは文字通り外骨格が外部に露出しているため尖った部分が残っていると指を切る可能性があります。
 棒ヤスリがない場合はニッパーでなるべくギリギリまで切ってから紙やすりでなめらかにしましょう(あれば)。
 
-![](./togatteru.jpg)
+<img src="./togatteru.jpg" height=256px />
 
 最終的な外骨格1セット
-![](./yasuri-ed.jpg)
+<img src="./yasuri-ed.jpg" height=256px />
 
