@@ -47,8 +47,12 @@ MX用とChoc用のどちらの無限の可能性でも作成できますが、�
 最後にニッパーで切ったときにできた尖った部分を棒ヤスリなどでなめらかにしましょう(僕は[これ](https://www.amazon.co.jp/dp/B00FPJH02C)を使っています)。sasori-kakko-kariは文字通り外骨格が外部に露出しているため尖った部分が残っていると指を切る可能性があります。
 棒ヤスリがない場合はニッパーでなるべくギリギリまで切ってから紙やすりでなめらかにしましょう(あれば)。
 
+<figure>
+<figcaption>ヤスリがけ前の状態</figcaption>
 <img src="./togatteru.jpg" height=256px />
+</figure>
 
-最終的な外骨格1セット
+<figure>
+<figcaption>最終的な外骨格1セット</figcaption>
 <img src="./yasuri-ed.jpg" height=256px />
-
+</figure>
