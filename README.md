@@ -1,5 +1,9 @@
 # earth-rover とは？
 
+<figure>
+<img src="./img/result.jpg" height=512px />
+</figure>
+
 [無限の可能性](https://github.com/swanmatch/MxLEDBitPCB)から生まれた機械生命体です。
 普段はマクロパッドに擬態して人間と共生しています。
 
