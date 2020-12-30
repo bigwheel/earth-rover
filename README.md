@@ -99,6 +99,3 @@ PCBソケットははんだ付けがしやすい反面、見た目でハンダ�
 | その後ProMicroSocketへ取り付けます。| 取り付け時はRESETピンの位置で合わせるとやりやすいです| 今後のはんだ付けのために一旦ProMicroSocketからPro Microを取り外します|
 | ![](./promicro-switch-kari.jpg) | ![](./promicro-switch-side.jpg) | ![](./promicro-switch-soldered.jpg) |
 | ProMicroSocketへタクタイルスイッチを仮どめします。その際ProMicroSocketの表裏に注意してください| このように裏面へ足が出るまできっちり押し込んでください| 穴が埋まる程度にハンダ付けします|
-
-Pro Microが問題なくProMicroSocketへ取り付けられることを確認できたら、
-
