@@ -72,7 +72,7 @@ MX用とChoc用のどちらの無限の可能性でも作成できますが、�
 | 裏から見るとこんな感じ | はんだ付けを行いニッパーで余分な足を切ります。このとき切った足は後で使いますので残しておきましょう。 |
 
 
-### 鱗の根っこを付ける
+### (ConTaiNeRのみ) 鱗の根っこを付ける
 
 無限の可能性ConTaiNeRを使用している人はここで[スイッチ用PCBソケット（10個入り） \| 遊舎工房](https://yushakobo.jp/shop/a01ps/)を付けます。
 ソケットには上下があるのでシルクに合わせて取り付けましょう。
@@ -87,3 +87,18 @@ PCBソケットははんだ付けがしやすい反面、見た目でハンダ�
 1. 浮いているソケットがないこと
 2. ハンダされていない足がないこと
 3. 向きが間違っているソケットがないこと
+
+### 脳みそと頭蓋骨の組み立て
+
+脳みそであるPro Microと頭蓋骨であるProMicroSocket(プロマイクロのおうち)を組み立てます。
+
+| ![](./promicro-package.jpg) | ![](./promicro-assembled.jpg) | ![](./promicro-jack.jpg) |
+| ---- | ---- | ---- |
+| Pro Micro 1つとコンスルー(12ピン) 2つを用意します | 向きに注意しつつ組み立てます。接着剤を使ってMicro USBのコネクタ部分を補強するとGood| その際は接着剤がコネクタ内部に入り込まないように注意します。|
+| ![](./promicrosocket-surface.jpg) | ![](./promicrosocket-back.jpg) | ![](./promicro-purge.jpg) |
+| その後ProMicroSocketへ取り付けます。| 取り付け時はRESETピンの位置で合わせるとやりやすいです| 今後のはんだ付けのために一旦ProMicroSocketからPro Microを取り外します|
+| ![](./promicro-switch-kari.jpg) | ![](./promicro-switch-side.jpg) | ![](./promicro-switch-soldered.jpg) |
+| ProMicroSocketへタクタイルスイッチを仮どめします。その際ProMicroSocketの表裏に注意してください| このように裏面へ足が出るまできっちり押し込んでください| 穴が埋まる程度にハンダ付けします|
+
+Pro Microが問題なくProMicroSocketへ取り付けられることを確認できたら、
+
