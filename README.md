@@ -8,6 +8,8 @@
 一度自作キーボードを作ったことがある人を想定して書いています。
 初めての作成でもできなくないかもしれませんが特に道具などの使い方について詳しくないためより丁寧な説明が書かれている[Claw44ビルドガイド \| yfuku docs](https://yfuku.com/claw44/buildguide/)などを参考にしてください。
 
+また、立体的な配線と空中配線からハンダ付けの難易度は少し高めです。
+
 ## 構成要素
 
 | 名前 | 数 | 備考 |
@@ -38,12 +40,12 @@ MX用とChoc用のどちらの無限の可能性でも作成できますが、�
 
 <figure>
 <figcaption>ConTaiNeRまたはSuXeNの場合</figcaption>
-<img src="./cut-container.jpg" height=256px />
+<img src="./img/cut-container.jpg" height=256px />
 </figure>
 
 <figure>
 <figcaption>Chocっとした可能性の場合</figcaption>
-<img src="./cut-choc.jpg" height=256px />
+<img src="./img/cut-choc.jpg" height=256px />
 </figure>
 
 ※ 別の切り方もできますがダイオードの方向が変わってくるためこの後説明しやすい切り方にしています
@@ -53,22 +55,22 @@ MX用とChoc用のどちらの無限の可能性でも作成できますが、�
 
 <figure>
 <figcaption>ヤスリがけ前の状態</figcaption>
-<img src="./togatteru.jpg" height=256px />
+<img src="./img/togatteru.jpg" height=256px />
 </figure>
 
 <figure>
 <figcaption>最終的な外骨格1セット</figcaption>
-<img src="./yasuri-ed.jpg" height=256px />
+<img src="./img/yasuri-ed.jpg" height=256px />
 </figure>
 
 ### 神経節の取り付け
 
 ダイオードを外骨格へ取り付けます。
 
-| ![](./diode-raw.jpg) | ![](./diode-set.jpg) |
+| ![](./img/diode-raw.jpg) | ![](./img/diode-set.jpg) |
 | ---- | ---- |
 | ダイオードの足を折ります。ベンダーがあると便利です。 | ダイオードを外骨格上へ仮止めします。マスキングテープがあると便利です |
-| ![](./diode-set2.jpg) | ![](./diode-finish.jpg) |
+| ![](./img/diode-set2.jpg) | ![](./img/diode-finish.jpg) |
 | 裏から見るとこんな感じ | はんだ付けを行いニッパーで余分な足を切ります。このとき切った足は後で使いますので残しておきましょう。 |
 
 
@@ -92,10 +94,55 @@ PCBソケットははんだ付けがしやすい反面、見た目でハンダ�
 
 脳みそであるPro Microと頭蓋骨であるProMicroSocket(プロマイクロのおうち)を組み立てます。
 
-| ![](./promicro-package.jpg) | ![](./promicro-assembled.jpg) | ![](./promicro-jack.jpg) |
+| ![](./img/promicro-package.jpg) | ![](./img/promicro-assembled.jpg) | ![](./img/promicro-jack.jpg) |
 | ---- | ---- | ---- |
 | Pro Micro 1つとコンスルー(12ピン) 2つを用意します | 向きに注意しつつ組み立てます。接着剤を使ってMicro USBのコネクタ部分を補強するとGood| その際は接着剤がコネクタ内部に入り込まないように注意します。|
-| ![](./promicrosocket-surface.jpg) | ![](./promicrosocket-back.jpg) | ![](./promicro-purge.jpg) |
+| ![](./img/promicrosocket-surface.jpg) | ![](./img/promicrosocket-back.jpg) | ![](./img/promicro-purge.jpg) |
 | ProMicroSocketへ問題なく取り付けられるか確認します | ちなみに取り付けるときの向きはRESETピンの位置で合わせるとやりやすいです| 今後のはんだ付けのために一旦ProMicroSocketからPro Microを取り外します|
-| ![](./promicro-switch-kari.jpg) | ![](./promicro-switch-side.jpg) | ![](./promicro-switch-soldered.jpg) |
+| ![](./img/promicro-switch-kari.jpg) | ![](./img/promicro-switch-side.jpg) | ![](./img/promicro-switch-soldered.jpg) |
 | ProMicroSocketへタクタイルスイッチを仮どめします。その際ProMicroSocketの表裏に注意してください| このように裏面へ足が出るまできっちり押し込んでください| 穴が埋まる程度にハンダ付けします|
+
+### 神経接続
+
+sasori-kakko-kariの神経であるリード線を接続します。
+
+| ![](./img/wiring-blueprint.jpg) | ![](./img/wiring1.jpg) |
+| ---- | ---- |
+| 短いところはダイオードの切断した足、長いところはエナメル線またはリード線で接続すると楽です | このように側面の外骨格側へまずハンダ付けを行い、
+| ![](./img/wiring2.jpg) | |
+| このように上面の外骨格へ指してハンダ付けを行うのがおすすめです。この際外骨格同士が直角になるギリギリの長さでハンダ付けを行うと完成時格好良くなります | |
+| ![](./img/wiring-complete1.jpg) | ![](./img/wiring-complete2.jpg) |
+| 外骨格の神経を接続した姿その1 | 外骨格の神経を接続した姿その2 |
+| ![](./img/board-to-promicro1.jpg) | ![](./img/board-to-promicro2.jpg) |
+| 引き続き外骨格と頭蓋骨も接続します。ここの接続はある程度遊びが必要であるため10cm程度の線を使ってください。 | 最終的にこうなります。この時点では頭蓋骨がはみ出ていてもOK
+
+### 頭蓋骨を外骨格へ固定
+
+| ![](./img/hawser.jpg) | ![](./img/anchorage-point.jpg) |
+| ---- | ---- |
+| 10cmぐらいのエナメル線またはタコ糸などの絶縁コードを用意 | 作成したコードを画像の丸の部分へくくりつけて結ぶ|
+| ![](./img/anchoraged.jpg) | ![](./img/anchoraged-bad-sample.jpg) |
+| 結んだコードをペンチなどでひねり、Pro Microを基板へ固定する | あまり締めすぎるとキースイッチを入れにくくなるためそこそこでOK(画像は締めすぎて前面と接近しすぎた余りキースイッチが入らなくなった悪い例)|
+
+
+### 鱗の貼り付け
+
+sasori-kakko-kariの鱗であるキースイッチとキーキャップを取り付けます。
+
+<figure>
+<img src="./img/finish.jpg" height=256px />
+</figure>
+
+### 人格のインストール
+
+USB接続で脳みそへqmk firmwareベースの人格をインストールします。
+
+TBW
+
+### 完成
+
+お疲れ様でした、これでsasori-kakko-kariの完成です！
+
+<figure>
+<img src="./img/result.jpg" height=512px />
+</figure>
