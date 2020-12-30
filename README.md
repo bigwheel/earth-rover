@@ -96,6 +96,6 @@ PCBソケットははんだ付けがしやすい反面、見た目でハンダ�
 | ---- | ---- | ---- |
 | Pro Micro 1つとコンスルー(12ピン) 2つを用意します | 向きに注意しつつ組み立てます。接着剤を使ってMicro USBのコネクタ部分を補強するとGood| その際は接着剤がコネクタ内部に入り込まないように注意します。|
 | ![](./promicrosocket-surface.jpg) | ![](./promicrosocket-back.jpg) | ![](./promicro-purge.jpg) |
-| その後ProMicroSocketへ取り付けます。| 取り付け時はRESETピンの位置で合わせるとやりやすいです| 今後のはんだ付けのために一旦ProMicroSocketからPro Microを取り外します|
+| ProMicroSocketへ問題なく取り付けられるか確認します | ちなみに取り付けるときの向きはRESETピンの位置で合わせるとやりやすいです| 今後のはんだ付けのために一旦ProMicroSocketからPro Microを取り外します|
 | ![](./promicro-switch-kari.jpg) | ![](./promicro-switch-side.jpg) | ![](./promicro-switch-soldered.jpg) |
 | ProMicroSocketへタクタイルスイッチを仮どめします。その際ProMicroSocketの表裏に注意してください| このように裏面へ足が出るまできっちり押し込んでください| 穴が埋まる程度にハンダ付けします|
