@@ -1,16 +1,19 @@
 # sasori-kakko-kari とは？
 
-[無限の可能性](https://github.com/swanmatch/MxLEDBitPCB)から生まれた不思議生命体です。
+[無限の可能性](https://github.com/swanmatch/MxLEDBitPCB)から生まれた機械生命体です。
 普段はマクロパッドに擬態して人間と共生しています。
 
 # ビルドガイド
 
-## 部品
+一度自作キーボードを作ったことがある人を想定して書いています。
+初めての作成でもできなくないかもしれませんが特に道具などの使い方について詳しくないためより丁寧な説明が書かれている[Claw44ビルドガイド \| yfuku docs](https://yfuku.com/claw44/buildguide/)などを参考にしてください。
+
+## 構成要素
 
 | 名前 | 数 | 備考 |
 |:-|:-|:-|
 | 無限の可能性(以下のどれか1つ) | | |
-| 1. [無限の可能性『ConTaiNeR』\(kailhソケット版\) \- 魔界鍵盤製作所 \- BOOTH](https://swanmatch.booth.pm/items/1940367) | 1枚(14セル) | kailhソケットも14個必要 |
+| 1. [無限の可能性『ConTaiNeR』\(kailhソケット版\) \- 魔界鍵盤製作所 \- BOOTH](https://swanmatch.booth.pm/items/1940367) | 1枚(14セル) | [スイッチ用PCBソケット（10個入り） \| 遊舎工房](https://yushakobo.jp/shop/a01ps/)(MX用)も14個必要 |
 | 2. [無限の可能性『SuXeN』 \- 魔界鍵盤製作所 \- BOOTH](https://swanmatch.booth.pm/items/1940247) | 1枚(14セル) | |
 | 3. [Chocっとした可能性\(ロープロ挟ピッチ版\) \- 魔界鍵盤製作所 \- BOOTH](https://swanmatch.booth.pm/items/1940394) | 1枚(18セル) | これを使用する場合は以下14個を18個へ適時読み替えてください|
 | [ProMicroSocket\(プロマイクロのおうち\) \- 魔界鍵盤製作所 \- BOOTH](https://swanmatch.booth.pm/items/1073313) | 1個 | |
@@ -19,13 +22,14 @@
 | [【保守部品】ダイオード　リードタイプ（100個入り） \| 遊舎工房](https://yushakobo.jp/shop/a0800di-01-100/) | 14本 | |
 | キースイッチ | 14個 | 選択した無限の可能性に合わせてMX互換またはchoc互換のものを選んでください |
 | キーキャップ | 1u 14個 | |
+| エナメル線またはリード線 | | |
 
 MX用とChoc用のどちらの無限の可能性でも作成できますが、全長がProMicroSocket依存なのでChoc用のほうが小さいわけではないです。
 むしろChoc用のほうがぎりぎり収まらないために全長がMX用より長くなっています(ProMicroSocketの不要部分を切る、あるいはProMcroへ直接配線するなどでより小さく作ることは可能ですが、配線やファームウェアなどの調整が必要になります)。
 
-## 実装
+## 育成方法
 
-### 各面の作成
+### 外骨格の作成
 
 無限の可能性からsasori-kakko-kariの外骨格を作ります。
 
@@ -56,3 +60,19 @@ MX用とChoc用のどちらの無限の可能性でも作成できますが、�
 <figcaption>最終的な外骨格1セット</figcaption>
 <img src="./yasuri-ed.jpg" height=256px />
 </figure>
+
+### 神経節の取り付け
+
+ダイオードを外骨格へ取り付けます。
+
+| ![](./diode-raw.jpg) | ![](./diode-set.jpg) |
+| ---- | ---- |
+| 片側のパッドに予備はんだを盛ります | ダイオードの向きに注意しつつ、予備はんだをつけたパッドにダイオードをはんだ付けします（基板の逆`コ`の字型のシルクの縦線とダイオードの印字の縦線の向きを揃えます、シルクがかすれている場合は下の段の写真で向きを確認します） |
+| ![](./diode-set.jpg) | ![](./diode-finish.jpg) |
+| ||
+
+
+### 鱗の根っこを付ける
+
+無限の可能性ConTaiNeRを使用している人はここで[スイッチ用PCBソケット（10個入り） \| 遊舎工房](https://yushakobo.jp/shop/a01ps/)を付けます。
+
